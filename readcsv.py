@@ -1,7 +1,7 @@
 import csv
-import collections import Counter
+from collections import Counter
 
-with open ('Data.csv', 'r') as csvfile:
+with open('Data.csv', 'r') as csvfile:
     reader = csv.reader(csvfile)
     array = []
     for row in reader:
@@ -10,5 +10,5 @@ with open ('Data.csv', 'r') as csvfile:
     c = Counter(array)
 csvfile.close()
 data = open('Data.txt', 'w')
-data.write('%d\nName %d\nDepartment %d\nEthnicity %d\nGender %d\nEducation Level %n\nUniversity %d\nMajor %d\n1990 %d\n1991 %d\n1992 %d\n1993 %d\n2000 %d\n2001) % (c['1990'] (c['1991'] c['1992'] c['1993'] c['2000']),c['2001']))
+data.write('8 \nLabor-Department %d\nHispanic-Ethnicity %d\nGender(female) %d\nEducation-Level(College) %d\nUniversity(Harvard) %d\nMajor(English) %d\n1990-Grad-Yr %d\n2001-Grad-Yr %d' % (c['labor dept'],c['african american'], c['female'], c['college'], c['harvard university'], c['english'], c['1990'], c['2001']))
 data.close()
