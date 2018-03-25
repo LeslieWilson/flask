@@ -8,7 +8,7 @@
     "degrees":[
         {
         "level":"college",
-        "subject":"english",
+        "subject":"spanish",
         "grad year": "2001",
         "location": "harvard university"
     }]
@@ -19,21 +19,21 @@
     "name": "Dalia",
     "dept": "labor dept",
     "ethnicity": "african american",
-    "gender": "female",
+    "gender": "male",
 
     "degrees":[
         {
         "level":"college",
         "subject":"english",
-        "grad year": "2001",
+        "grad year": "1990",
         "location": "harvard university"
     }]
 },
 
 {
     "name": "Dalia",
-    "dept": "labor dept",
-    "ethnicity": "african american",
+    "dept": "toxicology",
+    "ethnicity": "spanish",
     "gender": "female",
 
     "degrees":[
