@@ -12,3 +12,5 @@ def api_message():
 
 if __name__ == '__main__':
     app.run()
+
+# downloaded flask http://flask.pocoo.org/, used curl to test it out on my CLI, set it up on a digital ocean droplet 
